@@ -68,11 +68,11 @@ public:
                 sum = 0; // Discard the sum obtained as sum < 0 only decreases our "maximum sum"!
         }
 
-        // In some questions, it is mentioned that if none of the sum is > 0, the return answer as 0.
+        // In some questions, it is mentioned that if none of the sum is < 0, the return answer as 0.
         // if (maxi < 0)
         //     return 0;
 
-        // return maxi;
+        return maxi;
     }
 };
 
